@@ -19,26 +19,40 @@ function updateItemCount(count) {
 
 // Streaming NDJSON
 async function streamNDJSON(url, onData) {
-  const response = await fetch(url);
-  const reader = response.body.getReader();
-  const decoder = new TextDecoder("utf-8");
-  let buffer = "";
+  try {
+    console.log(`[streamNDJSON] Fetching: ${url}`);
+    const response = await fetch(url);
 
-  while (true) {
-    const { value, done } = await reader.read();
-    if (done) break;
-    buffer += decoder.decode(value, { stream: true });
-    const lines = buffer.split("\n");
-    buffer = lines.pop();
-
-    for (const line of lines) {
-      if (!line.trim()) continue;
-      const obj = JSON.parse(line);
-      onData(obj);
+    if (!response.ok) {
+      throw new Error(
+        `Failed to fetch ${url}: ${response.status} ${response.statusText}`
+      );
     }
-  }
 
-  if (buffer.trim()) onData(JSON.parse(buffer));
+    const reader = response.body.getReader();
+    const decoder = new TextDecoder("utf-8");
+    let buffer = "";
+
+    while (true) {
+      const { value, done } = await reader.read();
+      if (done) break;
+      buffer += decoder.decode(value, { stream: true });
+      const lines = buffer.split("\n");
+      buffer = lines.pop();
+
+      for (const line of lines) {
+        if (!line.trim()) continue;
+        const obj = JSON.parse(line);
+        onData(obj);
+      }
+    }
+
+    if (buffer.trim()) onData(JSON.parse(buffer));
+    console.log(`[streamNDJSON] Successfully loaded: ${url}`);
+  } catch (error) {
+    console.error(`[streamNDJSON] Error loading ${url}:`, error);
+    throw error;
+  }
 }
 
 // Render idiom batch
@@ -200,5 +214,9 @@ clearFiltersBtn.addEventListener("click", () => {
   applyFilters();
 });
 
-// Initial load
-loadLanguage("en");
+// Initial load - ensure DOM is ready
+if (document.readyState === "loading") {
+  document.addEventListener("DOMContentLoaded", () => loadLanguage("en"));
+} else {
+  loadLanguage("en");
+}
