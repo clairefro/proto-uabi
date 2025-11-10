@@ -6,6 +6,12 @@ const dataDir = path.resolve("idioms");
 const outputPath = path.join(dataDir, "index.json");
 
 async function buildIndex() {
+  // Delete existing index.json if it exists
+  if (fs.existsSync(outputPath)) {
+    fs.unlinkSync(outputPath);
+    console.log(`Deleted existing ${outputPath}`);
+  }
+
   const index = {};
 
   // Get all NDJSON files in /idioms

@@ -1,10 +1,50 @@
 {"id": "zh_1", "idiom": "头头是道", "language": "zh", "literal": "head head is path", "meaning": "to be clear and logical", "body_parts": ["head"], "affects": ["clarity", "confidence"]}
 {"id": "zh_2", "idiom": "摇头摆尾", "language": "zh", "literal": "shake head wag tail", "meaning": "to be pleased with oneself", "body_parts": ["head", "tail"], "affects": ["pride", "self-satisfaction"]}
 {"id": "zh_3", "idiom": "拍手叫好", "language": "zh", "literal": "clap hands and shout good", "meaning": "to applaud or praise enthusiastically", "body_parts": ["hand", "mouth"], "affects": ["approval", "admiration"]}
-{"id": "zh_4", "idiom": "眉开眼笑", "language": "zh", "literal": "eyebrows open eyes smile", "meaning": "to beam with joy", "body_parts": ["eyes", "eyebrows"], "affects": ["happiness", "contentment"]}
+{"id": "zh_4", "idiom": "眉开眼笑", "language": "zh", "literal": "eyebrows open eyes smile", "meaning": "to beam with joy", "body_parts": ["eye", "eyebrows"], "affects": ["happiness", "contentment"]}
 {"id": "zh_5", "idiom": "挠头", "language": "zh", "literal": "scratch head", "meaning": "to be puzzled or unsure", "body_parts": ["head"], "affects": ["confusion", "uncertainty"]}
 {"id": "zh_6", "idiom": "咬牙切齿", "language": "zh", "literal": "grit teeth cut teeth", "meaning": "to gnash one’s teeth in anger", "body_parts": ["teeth"], "affects": ["anger", "frustration"]}
 {"id": "zh_7", "idiom": "洗耳恭听", "language": "zh", "literal": "wash ears respectfully listen", "meaning": "to listen respectfully and attentively", "body_parts": ["ear"], "affects": ["respect", "attention"]}
 {"id": "zh_8", "idiom": "口是心非", "language": "zh", "literal": "mouth says heart different", "meaning": "to say one thing but mean another", "body_parts": ["mouth", "heart"], "affects": ["deception", "conflict"]}
 {"id": "zh_9", "idiom": "心花怒放", "language": "zh", "literal": "heart flowers bloom", "meaning": "to feel elated or overjoyed", "body_parts": ["heart"], "affects": ["joy", "delight"]}
-{"id": "zh_10", "idiom": "脚踏实地", "language": "zh", "literal": "feet step solid ground", "meaning": "to be steady and practical", "body_parts": ["feet"], "affects": ["stability", "groundedness"]}
+{"id": "zh_10", "idiom": "脚踏实地", "language": "zh", "literal": "feet step solid ground", "meaning": "to be steady and practical", "body_parts": ["foot"], "affects": ["stability", "groundedness"]}
+{"id": "zh_11", "idiom": "抬头挺胸", "language": "zh", "literal": "raise head straighten chest", "meaning": "to be confident or proud", "body_parts": ["head", "chest"], "affects": ["confidence", "pride"]}
+{"id": "zh_12", "idiom": "咬文嚼字", "language": "zh", "literal": "bite words chew characters", "meaning": "to be pedantic or meticulous in wording", "body_parts": ["mouth"], "affects": ["precision", "carefulness"]}
+{"id": "zh_13", "idiom": "耳闻目睹", "language": "zh", "literal": "ear hear eye see", "meaning": "to witness firsthand", "body_parts": ["ear", "eye"], "affects": ["awareness", "experience"]}
+{"id": "zh_14", "idiom": "心旷神怡", "language": "zh", "literal": "heart relaxed spirit delighted", "meaning": "to feel happy and relaxed", "body_parts": ["heart", "mind"], "affects": ["calmness", "happiness"]}
+{"id": "zh_15", "idiom": "指手画脚", "language": "zh", "literal": "point hands draw feet", "meaning": "to gesticulate or give orders", "body_parts": ["hand", "foot"], "affects": ["directive", "control"]}
+{"id": "zh_16", "idiom": "心有余悸", "language": "zh", "literal": "heart has leftover fear", "meaning": "to remain fearful after a frightening event", "body_parts": ["heart"], "affects": ["fear", "anxiety"]}
+{"id": "zh_17", "idiom": "抚掌大笑", "language": "zh", "literal": "pat hands laugh loudly", "meaning": "to laugh heartily", "body_parts": ["hand", "mouth"], "affects": ["joy", "amusement"]}
+{"id": "zh_18", "idiom": "头重脚轻", "language": "zh", "literal": "head heavy foot light", "meaning": "unstable or unbalanced", "body_parts": ["head", "foot"], "affects": ["instability", "imbalance"]}
+{"id": "zh_19", "idiom": "抬眉迎人", "language": "zh", "literal": "raise eyebrows greet people", "meaning": "to greet someone pleasantly", "body_parts": ["eyebrows"], "affects": ["friendliness", "warmth"]}
+{"id": "zh_20", "idiom": "手忙脚乱", "language": "zh", "literal": "hands busy feet confused", "meaning": "to be in a fluster", "body_parts": ["hand", "foot"], "affects": ["confusion", "stress"]}
+{"id": "zh_21", "idiom": "目瞪口呆", "language": "zh", "literal": "eyes stare mouth dumb", "meaning": "to be astonished", "body_parts": ["eye", "mouth"], "affects": ["surprise", "shock"]}
+{"id": "zh_22", "idiom": "眉飞色舞", "language": "zh", "literal": "eyebrows fly colors dance", "meaning": "to be animated with joy", "body_parts": ["eyebrows", "face"], "affects": ["excitement", "enthusiasm"]}
+{"id": "zh_23", "idiom": "摇头否认", "language": "zh", "literal": "shake head deny", "meaning": "to deny or reject", "body_parts": ["head"], "affects": ["denial", "refusal"]}
+{"id": "zh_24", "idiom": "心神不宁", "language": "zh", "literal": "heart spirit unrest", "meaning": "to be uneasy or anxious", "body_parts": ["heart", "mind"], "affects": ["anxiety", "worry"]}
+{"id": "zh_25", "idiom": "拍脑袋", "language": "zh", "literal": "pat head", "meaning": "to act rashly or impulsively", "body_parts": ["head"], "affects": ["impulsiveness", "recklessness"]}
+{"id": "zh_26", "idiom": "口若悬河", "language": "zh", "literal": "mouth like hanging river", "meaning": "to be eloquent or talkative", "body_parts": ["mouth"], "affects": ["eloquence", "expression"]}
+{"id": "zh_27", "idiom": "耳提面命", "language": "zh", "literal": "ear lift face command", "meaning": "to admonish personally", "body_parts": ["ear", "face"], "affects": ["guidance", "instruction"]}
+{"id": "zh_28", "idiom": "心头一紧", "language": "zh", "literal": "heart suddenly tightens", "meaning": "to feel a sudden shock or fear", "body_parts": ["heart"], "affects": ["fear", "tension"]}
+{"id": "zh_29", "idiom": "手不释卷", "language": "zh", "literal": "hands do not release book", "meaning": "to study diligently", "body_parts": ["hand"], "affects": ["dedication", "focus"]}
+{"id": "zh_30", "idiom": "脚踏两只船", "language": "zh", "literal": "feet step on two boats", "meaning": "to be unfaithful or indecisive", "body_parts": ["foot"], "affects": ["duplicity", "indecision"]}
+{"id": "zh_31", "idiom": "眉头紧锁", "language": "zh", "literal": "eyebrows tightly knit", "meaning": "to be worried or stressed", "body_parts": ["eyebrows"], "affects": ["worry", "stress"]}
+{"id": "zh_32", "idiom": "目不转睛", "language": "zh", "literal": "eyes do not turn", "meaning": "to gaze intently", "body_parts": ["eye"], "affects": ["focus", "attention"]}
+{"id": "zh_33", "idiom": "手到擒来", "language": "zh", "literal": "hand arrives catch comes", "meaning": "to achieve easily", "body_parts": ["hand"], "affects": ["success", "efficiency"]}
+{"id": "zh_34", "idiom": "口蜜腹剑", "language": "zh", "literal": "mouth honey belly sword", "meaning": "to be deceitful", "body_parts": ["mouth", "stomach"], "affects": ["deception", "cunning"]}
+{"id": "zh_35", "idiom": "心血来潮", "language": "zh", "literal": "heart blood comes tide", "meaning": "to act on sudden impulse", "body_parts": ["heart"], "affects": ["impulse", "spontaneity"]}
+{"id": "zh_36", "idiom": "脚尖点地", "language": "zh", "literal": "tiptoe touch ground", "meaning": "to be careful or stealthy", "body_parts": ["foot"], "affects": ["caution", "stealth"]}
+{"id": "zh_37", "idiom": "头破血流", "language": "zh", "literal": "head broken blood flows", "meaning": "to suffer a severe defeat", "body_parts": ["head"], "affects": ["pain", "defeat"]}
+{"id": "zh_38", "idiom": "手舞足蹈", "language": "zh", "literal": "hands dance feet dance", "meaning": "to be extremely happy or excited", "body_parts": ["hand", "foot"], "affects": ["joy", "excitement"]}
+{"id": "zh_39", "idiom": "眉目传情", "language": "zh", "literal": "eyebrows eyes convey feeling", "meaning": "to express emotion silently", "body_parts": ["eyebrows", "eye"], "affects": ["communication", "affection"]}
+{"id": "zh_40", "idiom": "口无遮拦", "language": "zh", "literal": "mouth without barrier", "meaning": "to speak bluntly or freely", "body_parts": ["mouth"], "affects": ["frankness", "candor"]}
+{"id": "zh_41", "idiom": "耳边风", "language": "zh", "literal": "wind by the ear", "meaning": "to ignore advice", "body_parts": ["ear"], "affects": ["neglect", "carelessness"]}
+{"id": "zh_42", "idiom": "心如刀割", "language": "zh", "literal": "heart like knife cuts", "meaning": "to feel extreme pain or grief", "body_parts": ["heart"], "affects": ["pain", "sorrow"]}
+{"id": "zh_43", "idiom": "手足无措", "language": "zh", "literal": "hands and feet without measure", "meaning": "to be at a loss or confused", "body_parts": ["hand", "foot"], "affects": ["confusion", "helplessness"]}
+{"id": "zh_44", "idiom": "头头是是", "language": "zh", "literal": "head head yes yes", "meaning": "to be meticulous or proper", "body_parts": ["head"], "affects": ["precision", "correctness"]}
+{"id": "zh_45", "idiom": "眉飞眼笑", "language": "zh", "literal": "eyebrows fly eyes smile", "meaning": "to be delighted or happy", "body_parts": ["eyebrows", "eye"], "affects": ["joy", "cheerfulness"]}
+{"id": "zh_46", "idiom": "口口声声", "language": "zh", "literal": "mouth mouth sound sound", "meaning": "to insist verbally", "body_parts": ["mouth"], "affects": ["insistence", "assertion"]}
+{"id": "zh_47", "idiom": "心惊肉跳", "language": "zh", "literal": "heart frightened flesh jumps", "meaning": "to be terrified or anxious", "body_parts": ["heart"], "affects": ["fear", "panic"]}
+{"id": "zh_48", "idiom": "手疾眼快", "language": "zh", "literal": "hand fast eye quick", "meaning": "to be quick in action and observation", "body_parts": ["hand", "eye"], "affects": ["speed", "alertness"]}
+{"id": "zh_49", "idiom": "足智多谋", "language": "zh", "literal": "feet wise many plans", "meaning": "to be resourceful or strategic", "body_parts": ["foot"], "affects": ["wisdom", "strategy"]}
+{"id": "zh_50", "idiom": "眉头一皱", "language": "zh", "literal": "eyebrows knit", "meaning": "to frown or be displeased", "body_parts": ["eyebrows"], "affects": ["displeasure", "concern"]}
