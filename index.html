@@ -2,19 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Idioms Test</title>
+    <title>Idioms Atlas</title>
+    <link rel="stylesheet" href="styles.css" />
     <style>
       body {
         font-family: sans-serif;
         padding: 20px;
       }
+      #idioms-container {
+        max-height: 600px;
+        overflow: auto;
+        border: 1px solid #ccc;
+        padding: 10px;
+      }
       .idiom {
+        padding: 5px;
+        border-bottom: 1px solid #eee;
+      }
+      select {
         margin-bottom: 10px;
       }
     </style>
   </head>
   <body>
-    <h1>Idioms NDJSON Test</h1>
+    <h1>Idioms Atlas</h1>
+
+    <label for="language-select">Choose language:</label>
+    <select id="language-select">
+      <option value="en">English</option>
+      <option value="zh">Chinese</option>
+      <option value="ja">Japanese</option>
+    </select>
+    <button id="load-all">Load All Languages</button>
+
+    <input type="text" id="search" placeholder="Search idioms..." />
+
     <div id="idioms-container"></div>
 
     <script src="script.js"></script>
