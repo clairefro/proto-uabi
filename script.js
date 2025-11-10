@@ -131,17 +131,25 @@ function renderBatch(batch) {
                      }</span><br>
                      ${
                        idiom.body_parts && idiom.body_parts.length > 0
-                         ? `<span class="info-body-parts">Body parts: ` +
+                         ? `<span class="info-body-parts">` +
                            idiom.body_parts
-                             .map((part) => `<span class="pill">${part}</span>`)
+                             .map(
+                               (part) =>
+                                 `<span class="pill pill-green">${part}</span>`
+                             )
                              .join(" ") +
                            "</span><br>"
                          : ""
                      }
                      ${
-                       idiom.affects
-                         ? `<span class="info-affects">Affects: ` +
-                           idiom.affects.join(", ") +
+                       idiom.affects && idiom.affects.length > 0
+                         ? `<span class="info-affects">A` +
+                           idiom.affects
+                             .map(
+                               (affect) =>
+                                 `<span class="pill pill-blue">${affect}</span>`
+                             )
+                             .join(" ") +
                            "</span><br>"
                          : ""
                      }`;
