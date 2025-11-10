@@ -1,50 +1,50 @@
-{"id":"ja_1","idiom":"首を長くする","language":"ja","literal":"make neck long","meaning":"to wait eagerly or look forward to something","body_parts":["neck"],"affects":["anticipation","eagerness"]}
-{"id":"ja_2","idiom":"頭が切れる","language":"ja","literal":"head is sharp","meaning":"to be sharp-witted or clever","body_parts":["head"],"affects":["intelligence","alertness"]}
-{"id":"ja_3","idiom":"手を焼く","language":"ja","literal":"burn one’s hands","meaning":"to have trouble dealing with something or someone","body_parts":["hand"],"affects":["frustration","difficulty"]}
-{"id":"ja_4","idiom":"足を引っ張る","language":"ja","literal":"pull someone’s leg/foot","meaning":"to hold someone back or hinder them","body_parts":["foot"],"affects":["resentment","obstruction"]}
-{"id":"ja_5","idiom":"口がうまい","language":"ja","literal":"mouth is skillful","meaning":"to be smooth-talking or persuasive","body_parts":["mouth"],"affects":["charm","deceit"]}
-{"id":"ja_6","idiom":"目が高い","language":"ja","literal":"eyes are high","meaning":"to have a discerning eye or good taste","body_parts":["eye"],"affects":["discernment","judgment"]}
-{"id":"ja_7","idiom":"耳が早い","language":"ja","literal":"ears are quick","meaning":"to be quick to catch news or gossip","body_parts":["ear"],"affects":["curiosity","alertness"]}
-{"id":"ja_8","idiom":"顔が広い","language":"ja","literal":"face is wide","meaning":"to have many acquaintances","body_parts":["face"],"affects":["sociability"]}
-{"id":"ja_9","idiom":"腹が立つ","language":"ja","literal":"stomach rises","meaning":"to get angry","body_parts":["stomach"],"affects":["anger"]}
-{"id":"ja_10","idiom":"口を出す","language":"ja","literal":"put mouth out","meaning":"to interfere or give unwanted advice","body_parts":["mouth"],"affects":["meddling","impatience"]}
-{"id":"ja_11","idiom":"目を通す","language":"ja","literal":"let eyes pass through","meaning":"to look over or skim","body_parts":["eye"],"affects":["attention","inspection"]}
-{"id":"ja_12","idiom":"手に入れる","language":"ja","literal":"put into hands","meaning":"to obtain or acquire","body_parts":["hand"],"affects":["desire","achievement"]}
-{"id":"ja_13","idiom":"足が早い","language":"ja","literal":"legs are fast","meaning":"to sell quickly or be perishable","body_parts":["leg"],"affects":["transience","popularity"]}
-{"id":"ja_14","idiom":"腰が低い","language":"ja","literal":"waist is low","meaning":"to be humble or modest","body_parts":["waist"],"affects":["humility"]}
-{"id":"ja_15","idiom":"肩を並べる","language":"ja","literal":"line up shoulders","meaning":"to be equal with or stand alongside","body_parts":["shoulder"],"affects":["equality","respect"]}
-{"id":"ja_16","idiom":"顔に泥を塗る","language":"ja","literal":"smear mud on face","meaning":"to disgrace someone","body_parts":["face"],"affects":["shame","dishonor"]}
-{"id":"ja_17","idiom":"目を盗む","language":"ja","literal":"steal eyes","meaning":"to do something secretly","body_parts":["eye"],"affects":["secrecy","mischief"]}
-{"id":"ja_18","idiom":"舌を巻く","language":"ja","literal":"roll the tongue","meaning":"to be amazed or impressed","body_parts":["tongue"],"affects":["amazement"]}
-{"id":"ja_19","idiom":"手を抜く","language":"ja","literal":"pull out the hand","meaning":"to cut corners or slack off","body_parts":["hand"],"affects":["laziness","carelessness"]}
-{"id":"ja_20","idiom":"胸が痛む","language":"ja","literal":"chest hurts","meaning":"to feel heartache or guilt","body_parts":["chest"],"affects":["sadness","remorse"]}
-{"id":"ja_21","idiom":"腹を割る","language":"ja","literal":"split the stomach","meaning":"to speak frankly or openly","body_parts":["stomach"],"affects":["honesty","trust"]}
-{"id":"ja_22","idiom":"背を向ける","language":"ja","literal":"turn the back","meaning":"to turn away or reject","body_parts":["back"],"affects":["avoidance","rejection"]}
-{"id":"ja_23","idiom":"口を閉ざす","language":"ja","literal":"close the mouth","meaning":"to stay silent","body_parts":["mouth"],"affects":["secrecy","restraint"]}
-{"id":"ja_24","idiom":"鼻が高い","language":"ja","literal":"nose is high","meaning":"to be proud","body_parts":["nose"],"affects":["pride"]}
-{"id":"ja_25","idiom":"首を突っ込む","language":"ja","literal":"stick neck in","meaning":"to meddle or interfere","body_parts":["neck"],"affects":["curiosity","interference"]}
-{"id":"ja_26","idiom":"肩の荷が下りる","language":"ja","literal":"burden leaves the shoulder","meaning":"to feel relieved","body_parts":["shoulder"],"affects":["relief"]}
-{"id":"ja_27","idiom":"足を伸ばす","language":"ja","literal":"stretch one’s legs","meaning":"to go farther than planned","body_parts":["leg"],"affects":["exploration"]}
-{"id":"ja_28","idiom":"目を覚ます","language":"ja","literal":"eyes awaken","meaning":"to wake up or become aware","body_parts":["eye"],"affects":["awareness","realization"]}
-{"id":"ja_29","idiom":"頭を冷やす","language":"ja","literal":"cool the head","meaning":"to calm down","body_parts":["head"],"affects":["composure","self-control"]}
-{"id":"ja_30","idiom":"胸を張る","language":"ja","literal":"stick out the chest","meaning":"to be proud or confident","body_parts":["chest"],"affects":["confidence","pride"]}
-{"id":"ja_31","idiom":"顔を出す","language":"ja","literal":"show the face","meaning":"to make an appearance","body_parts":["face"],"affects":["presence","politeness"]}
-{"id":"ja_32","idiom":"耳を貸す","language":"ja","literal":"lend an ear","meaning":"to listen to someone","body_parts":["ear"],"affects":["empathy","attention"]}
-{"id":"ja_33","idiom":"手が空く","language":"ja","literal":"hands become free","meaning":"to become available","body_parts":["hand"],"affects":["readiness"]}
-{"id":"ja_34","idiom":"口を滑らす","language":"ja","literal":"let the mouth slip","meaning":"to let something slip or blurt out","body_parts":["mouth"],"affects":["carelessness","regret"]}
-{"id":"ja_35","idiom":"足を洗う","language":"ja","literal":"wash one’s feet","meaning":"to quit a bad habit or crime","body_parts":["foot"],"affects":["redemption","renewal"]}
-{"id":"ja_36","idiom":"喉から手が出る","language":"ja","literal":"hand comes out of the throat","meaning":"to want something badly","body_parts":["throat","hand"],"affects":["desire","yearning"]}
-{"id":"ja_37","idiom":"腹が黒い","language":"ja","literal":"stomach is black","meaning":"to be malicious or scheming","body_parts":["stomach"],"affects":["deceit","ill will"]}
-{"id":"ja_38","idiom":"目が回る","language":"ja","literal":"eyes spin","meaning":"to be dizzy or extremely busy","body_parts":["eye"],"affects":["overwhelm","exhaustion"]}
-{"id":"ja_39","idiom":"腰を据える","language":"ja","literal":"set the waist","meaning":"to settle down to work","body_parts":["waist"],"affects":["focus","stability"]}
-{"id":"ja_40","idiom":"背中を押す","language":"ja","literal":"push the back","meaning":"to encourage someone","body_parts":["back"],"affects":["support","encouragement"]}
-{"id":"ja_41","idiom":"口に合う","language":"ja","literal":"suits the mouth","meaning":"to suit one’s taste","body_parts":["mouth"],"affects":["preference"]}
-{"id":"ja_42","idiom":"舌が回らない","language":"ja","literal":"tongue doesn’t turn","meaning":"to be tongue-tied or tired","body_parts":["tongue"],"affects":["fatigue","confusion"]}
-{"id":"ja_43","idiom":"首をひねる","language":"ja","literal":"twist the neck","meaning":"to doubt or question something","body_parts":["neck"],"affects":["confusion","skepticism"]}
-{"id":"ja_44","idiom":"顔が赤い","language":"ja","literal":"face is red","meaning":"to be embarrassed or shy","body_parts":["face"],"affects":["embarrassment","shame"]}
-{"id":"ja_45","idiom":"腹をくくる","language":"ja","literal":"tie the stomach","meaning":"to brace oneself or be resolute","body_parts":["stomach"],"affects":["determination","resolve"]}
-{"id":"ja_46","idiom":"手を広げる","language":"ja","literal":"spread the hands","meaning":"to expand one’s business or reach","body_parts":["hand"],"affects":["ambition","growth"]}
-{"id":"ja_47","idiom":"胸を打つ","language":"ja","literal":"strike the chest","meaning":"to be deeply moved","body_parts":["chest"],"affects":["emotion","empathy"]}
-{"id":"ja_48","idiom":"目と鼻の先","language":"ja","literal":"at the distance between eyes and nose","meaning":"very close or nearby","body_parts":["eye","nose"],"affects":["proximity"]}
-{"id":"ja_49","idiom":"肩を落とす","language":"ja","literal":"drop the shoulders","meaning":"to be disappointed","body_parts":["shoulder"],"affects":["sadness","disappointment"]}
-{"id":"ja_50","idiom":"耳を疑う","language":"ja","literal":"doubt the ears","meaning":"to be unable to believe what one hears","body_parts":["ear"],"affects":["surprise","disbelief"]}
+{"id":"ja_1","idiom":"首を長くする","romanization":"kubi o nagaku suru","language":"ja","literal":"make neck long","meaning":"to wait eagerly or look forward to something","body_parts":["neck"],"affects":["anticipation","eagerness"]}
+{"id":"ja_2","idiom":"頭が切れる","romanization":"atama ga kireru","language":"ja","literal":"head is sharp","meaning":"to be sharp-witted or clever","body_parts":["head"],"affects":["intelligence","alertness"]}
+{"id":"ja_3","idiom":"手を焼く","romanization":"te o yaku","language":"ja","literal":"burn one’s hands","meaning":"to have trouble dealing with something or someone","body_parts":["hand"],"affects":["frustration","difficulty"]}
+{"id":"ja_4","idiom":"足を引っ張る","romanization":"ashi o hipparu","language":"ja","literal":"pull someone’s leg/foot","meaning":"to hold someone back or hinder them","body_parts":["foot"],"affects":["resentment","obstruction"]}
+{"id":"ja_5","idiom":"口がうまい","romanization":"kuchi ga umai","language":"ja","literal":"mouth is skillful","meaning":"to be smooth-talking or persuasive","body_parts":["mouth"],"affects":["charm","deceit"]}
+{"id":"ja_6","idiom":"目が高い","romanization":"me ga takai","language":"ja","literal":"eyes are high","meaning":"to have a discerning eye or good taste","body_parts":["eye"],"affects":["discernment","judgment"]}
+{"id":"ja_7","idiom":"耳が早い","romanization":"mimi ga hayai","language":"ja","literal":"ears are quick","meaning":"to be quick to catch news or gossip","body_parts":["ear"],"affects":["curiosity","alertness"]}
+{"id":"ja_8","idiom":"顔が広い","romanization":"kao ga hiroi","language":"ja","literal":"face is wide","meaning":"to have many acquaintances","body_parts":["face"],"affects":["sociability"]}
+{"id":"ja_9","idiom":"腹が立つ","romanization":"hara ga tatsu","language":"ja","literal":"stomach rises","meaning":"to get angry","body_parts":["stomach"],"affects":["anger"]}
+{"id":"ja_10","idiom":"口を出す","romanization":"kuchi o dasu","language":"ja","literal":"put mouth out","meaning":"to interfere or give unwanted advice","body_parts":["mouth"],"affects":["meddling","impatience"]}
+{"id":"ja_11","idiom":"目を通す","romanization":"me o tōsu","language":"ja","literal":"let eyes pass through","meaning":"to look over or skim","body_parts":["eye"],"affects":["attention","inspection"]}
+{"id":"ja_12","idiom":"手に入れる","romanization":"te ni ireru","language":"ja","literal":"put into hands","meaning":"to obtain or acquire","body_parts":["hand"],"affects":["desire","achievement"]}
+{"id":"ja_13","idiom":"足が早い","romanization":"ashi ga hayai","language":"ja","literal":"legs are fast","meaning":"to sell quickly or be perishable","body_parts":["leg"],"affects":["transience","popularity"]}
+{"id":"ja_14","idiom":"腰が低い","romanization":"koshi ga hikui","language":"ja","literal":"waist is low","meaning":"to be humble or modest","body_parts":["waist"],"affects":["humility"]}
+{"id":"ja_15","idiom":"肩を並べる","romanization":"kata o naraberu","language":"ja","literal":"line up shoulders","meaning":"to be equal with or stand alongside","body_parts":["shoulder"],"affects":["equality","respect"]}
+{"id":"ja_16","idiom":"顔に泥を塗る","romanization":"kao ni doro o nuru","language":"ja","literal":"smear mud on face","meaning":"to disgrace someone","body_parts":["face"],"affects":["shame","dishonor"]}
+{"id":"ja_17","idiom":"目を盗む","romanization":"me o nusumu","language":"ja","literal":"steal eyes","meaning":"to do something secretly","body_parts":["eye"],"affects":["secrecy","mischief"]}
+{"id":"ja_18","idiom":"舌を巻く","romanization":"shita o maku","language":"ja","literal":"roll the tongue","meaning":"to be amazed or impressed","body_parts":["tongue"],"affects":["amazement"]}
+{"id":"ja_19","idiom":"手を抜く","romanization":"te o nuku","language":"ja","literal":"pull out the hand","meaning":"to cut corners or slack off","body_parts":["hand"],"affects":["laziness","carelessness"]}
+{"id":"ja_20","idiom":"胸が痛む","romanization":"mune ga itamu","language":"ja","literal":"chest hurts","meaning":"to feel heartache or guilt","body_parts":["chest"],"affects":["sadness","remorse"]}
+{"id":"ja_21","idiom":"腹を割る","romanization":"hara o waru","language":"ja","literal":"split the stomach","meaning":"to speak frankly or openly","body_parts":["stomach"],"affects":["honesty","trust"]}
+{"id":"ja_22","idiom":"背を向ける","romanization":"se o mukeru","language":"ja","literal":"turn the back","meaning":"to turn away or reject","body_parts":["back"],"affects":["avoidance","rejection"]}
+{"id":"ja_23","idiom":"口を閉ざす","romanization":"kuchi o tozasu","language":"ja","literal":"close the mouth","meaning":"to stay silent","body_parts":["mouth"],"affects":["secrecy","restraint"]}
+{"id":"ja_24","idiom":"鼻が高い","romanization":"hana ga takai","language":"ja","literal":"nose is high","meaning":"to be proud","body_parts":["nose"],"affects":["pride"]}
+{"id":"ja_25","idiom":"首を突っ込む","romanization":"kubi o tsukkomu","language":"ja","literal":"stick neck in","meaning":"to meddle or interfere","body_parts":["neck"],"affects":["curiosity","interference"]}
+{"id":"ja_26","idiom":"肩の荷が下りる","romanization":"kata no ni ga oriru","language":"ja","literal":"burden leaves the shoulder","meaning":"to feel relieved","body_parts":["shoulder"],"affects":["relief"]}
+{"id":"ja_27","idiom":"足を伸ばす","romanization":"ashi o nobasu","language":"ja","literal":"stretch one’s legs","meaning":"to go farther than planned","body_parts":["leg"],"affects":["exploration"]}
+{"id":"ja_28","idiom":"目を覚ます","romanization":"me o samasu","language":"ja","literal":"eyes awaken","meaning":"to wake up or become aware","body_parts":["eye"],"affects":["awareness","realization"]}
+{"id":"ja_29","idiom":"頭を冷やす","romanization":"atama o hiyasu","language":"ja","literal":"cool the head","meaning":"to calm down","body_parts":["head"],"affects":["composure","self-control"]}
+{"id":"ja_30","idiom":"胸を張る","romanization":"mune o haru","language":"ja","literal":"stick out the chest","meaning":"to be proud or confident","body_parts":["chest"],"affects":["confidence","pride"]}
+{"id":"ja_31","idiom":"顔を出す","romanization":"kao o dasu","language":"ja","literal":"show the face","meaning":"to make an appearance","body_parts":["face"],"affects":["presence","politeness"]}
+{"id":"ja_32","idiom":"耳を貸す","romanization":"mimi o kasu","language":"ja","literal":"lend an ear","meaning":"to listen to someone","body_parts":["ear"],"affects":["empathy","attention"]}
+{"id":"ja_33","idiom":"手が空く","romanization":"te ga aku","language":"ja","literal":"hands become free","meaning":"to become available","body_parts":["hand"],"affects":["readiness"]}
+{"id":"ja_34","idiom":"口を滑らす","romanization":"kuchi o suberasu","language":"ja","literal":"let the mouth slip","meaning":"to let something slip or blurt out","body_parts":["mouth"],"affects":["carelessness","regret"]}
+{"id":"ja_35","idiom":"足を洗う","romanization":"ashi o arau","language":"ja","literal":"wash one’s feet","meaning":"to quit a bad habit or crime","body_parts":["foot"],"affects":["redemption","renewal"]}
+{"id":"ja_36","idiom":"喉から手が出る","romanization":"nodo kara te ga deru","language":"ja","literal":"hand comes out of the throat","meaning":"to want something badly","body_parts":["throat","hand"],"affects":["desire","yearning"]}
+{"id":"ja_37","idiom":"腹が黒い","romanization":"hara ga kuroi","language":"ja","literal":"stomach is black","meaning":"to be malicious or scheming","body_parts":["stomach"],"affects":["deceit","ill will"]}
+{"id":"ja_38","idiom":"目が回る","romanization":"me ga mawaru","language":"ja","literal":"eyes spin","meaning":"to be dizzy or extremely busy","body_parts":["eye"],"affects":["overwhelm","exhaustion"]}
+{"id":"ja_39","idiom":"腰を据える","romanization":"koshi o sueru","language":"ja","literal":"set the waist","meaning":"to settle down to work","body_parts":["waist"],"affects":["focus","stability"]}
+{"id":"ja_40","idiom":"背中を押す","romanization":"senaka o osu","language":"ja","literal":"push the back","meaning":"to encourage someone","body_parts":["back"],"affects":["support","encouragement"]}
+{"id":"ja_41","idiom":"口に合う","romanization":"kuchi ni au","language":"ja","literal":"suits the mouth","meaning":"to suit one’s taste","body_parts":["mouth"],"affects":["preference"]}
+{"id":"ja_42","idiom":"舌が回らない","romanization":"shita ga mawaranai","language":"ja","literal":"tongue doesn’t turn","meaning":"to be tongue-tied or tired","body_parts":["tongue"],"affects":["fatigue","confusion"]}
+{"id":"ja_43","idiom":"首をひねる","romanization":"kubi o hineru","language":"ja","literal":"twist the neck","meaning":"to doubt or question something","body_parts":["neck"],"affects":["confusion","skepticism"]}
+{"id":"ja_44","idiom":"顔が赤い","romanization":"kao ga akai","language":"ja","literal":"face is red","meaning":"to be embarrassed or shy","body_parts":["face"],"affects":["embarrassment","shame"]}
+{"id":"ja_45","idiom":"腹をくくる","romanization":"hara o kukuru","language":"ja","literal":"tie the stomach","meaning":"to brace oneself or be resolute","body_parts":["stomach"],"affects":["determination","resolve"]}
+{"id":"ja_46","idiom":"手を広げる","romanization":"te o hirogeru","language":"ja","literal":"spread the hands","meaning":"to expand one’s business or reach","body_parts":["hand"],"affects":["ambition","growth"]}
+{"id":"ja_47","idiom":"胸を打つ","romanization":"mune o utsu","language":"ja","literal":"strike the chest","meaning":"to be deeply moved","body_parts":["chest"],"affects":["emotion","empathy"]}
+{"id":"ja_48","idiom":"目と鼻の先","romanization":"me to hana no saki","language":"ja","literal":"at the distance between eyes and nose","meaning":"very close or nearby","body_parts":["eye","nose"],"affects":["proximity"]}
+{"id":"ja_49","idiom":"肩を落とす","romanization":"kata o otosu","language":"ja","literal":"drop the shoulders","meaning":"to be disappointed","body_parts":["shoulder"],"affects":["sadness","disappointment"]}
+{"id":"ja_50","idiom":"耳を疑う","romanization":"mimi o utagau","language":"ja","literal":"doubt the ears","meaning":"to be unable to believe what one hears","body_parts":["ear"],"affects":["surprise","disbelief"]}
