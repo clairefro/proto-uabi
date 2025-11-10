@@ -126,7 +126,9 @@ function renderBatch(batch) {
                           "</span><br>"
                         : ""
                     }
-                     Meaning: ${idiom.meaning}<br>
+                     <span class="idiom-meaning">Meaning: ${
+                       idiom.meaning
+                     }</span><br>
                      ${
                        idiom.body_parts && idiom.body_parts.length > 0
                          ? `<span class="info-body-parts">Body parts: ` +
