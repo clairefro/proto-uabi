@@ -1,50 +1,50 @@
-{"idiom":"In the hands busy, feet confused","language":"en","meaning":"Overwhelmed or clumsy","tags":["body","confusion"]}
-{"idiom":"Break a leg","language":"en","meaning":"Good luck","tags":["body","luck"]}
-{"idiom":"Cost an arm and a leg","language":"en","meaning":"Very expensive","tags":["body","money"]}
-{"idiom":"A foot in the door","language":"en","meaning":"Early advantage, opportunity","tags":["body","opportunity"]}
-{"idiom":"Shake a leg","language":"en","meaning":"Hurry up","tags":["body","speed"]}
-{"idiom":"Keep your eyes peeled","language":"en","meaning":"Be alert","tags":["body","attention"]}
-{"idiom":"Cold feet","language":"en","meaning":"Nervous or hesitant","tags":["body","emotion"]}
-{"idiom":"Stick your neck out","language":"en","meaning":"Take a risk","tags":["body","risk"]}
-{"idiom":"By the skin of your teeth","language":"en","meaning":"Barely succeed","tags":["body","difficulty"]}
-{"idiom":"Tongue-tied","language":"en","meaning":"Unable to speak","tags":["body","speech"]}
-{"idiom":"Put your foot down","language":"en","meaning":"Assert authority","tags":["body","authority"]}
-{"idiom":"Get cold feet","language":"en","meaning":"Lose courage","tags":["body","emotion"]}
-{"idiom":"Cost an arm and a leg","language":"en","meaning":"Extremely expensive","tags":["body","money"]}
-{"idiom":"All thumbs","language":"en","meaning":"Clumsy with hands","tags":["body","clumsiness"]}
-{"idiom":"Eye candy","language":"en","meaning":"Visually attractive","tags":["body","appearance"]}
-{"idiom":"Bite your tongue","language":"en","meaning":"Refrain from speaking","tags":["body","speech"]}
-{"idiom":"Pull someone's leg","language":"en","meaning":"Joke or tease","tags":["body","humor"]}
-{"idiom":"Get your head around","language":"en","meaning":"Understand something difficult","tags":["body","cognition"]}
-{"idiom":"Keep an ear to the ground","language":"en","meaning":"Stay informed","tags":["body","attention"]}
-{"idiom":"Hand in glove","language":"en","meaning":"Closely cooperating","tags":["body","cooperation"]}
-{"idiom":"Pull yourself together","language":"en","meaning":"Calm down, regain composure","tags":["body","emotion"]}
-{"idiom":"On the tip of your tongue","language":"en","meaning":"Almost remembered","tags":["body","cognition"]}
-{"idiom":"Footloose","language":"en","meaning":"Free to move around","tags":["body","freedom"]}
-{"idiom":"Have a finger in the pie","language":"en","meaning":"Involved in something","tags":["body","involvement"]}
-{"idiom":"Break the ice","language":"en","meaning":"Initiate conversation","tags":["body","social"]}
-{"idiom":"Nip in the bud","language":"en","meaning":"Stop early","tags":["body","prevention"]}
-{"idiom":"Cold shoulder","language":"en","meaning":"Ignore someone","tags":["body","social"]}
-{"idiom":"Elbow room","language":"en","meaning":"Space to move freely","tags":["body","freedom"]}
-{"idiom":"Keep your chin up","language":"en","meaning":"Stay positive","tags":["body","emotion"]}
-{"idiom":"Break a sweat","language":"en","meaning":"Exert effort","tags":["body","effort"]}
-{"idiom":"Face the music","language":"en","meaning":"Accept consequences","tags":["body","responsibility"]}
-{"idiom":"Get out of hand","language":"en","meaning":"Lose control","tags":["body","control"]}
-{"idiom":"Hit the nail on the head","language":"en","meaning":"Describe exactly","tags":["body","precision"]}
-{"idiom":"Keep your head above water","language":"en","meaning":"Manage to survive","tags":["body","effort"]}
-{"idiom":"Lend a hand","language":"en","meaning":"Help someone","tags":["body","help"]}
-{"idiom":"Play it by ear","language":"en","meaning":"Improvise","tags":["body","cognition"]}
-{"idiom":"Put your money where your mouth is","language":"en","meaning":"Support words with actions","tags":["body","action"]}
-{"idiom":"Twist someone's arm","language":"en","meaning":"Persuade forcibly","tags":["body","persuasion"]}
-{"idiom":"Under your nose","language":"en","meaning":"In plain sight","tags":["body","attention"]}
-{"idiom":"Wet behind the ears","language":"en","meaning":"Inexperienced","tags":["body","experience"]}
-{"idiom":"Bend over backwards","language":"en","meaning":"Make a great effort","tags":["body","effort"]}
-{"idiom":"Cry over spilled milk","language":"en","meaning":"Worry about past mistakes","tags":["body","regret"]}
-{"idiom":"Get a leg up","language":"en","meaning":"Gain an advantage","tags":["body","opportunity"]}
-{"idiom":"Go out on a limb","language":"en","meaning":"Take a risk","tags":["body","risk"]}
-{"idiom":"Keep your fingers crossed","language":"en","meaning":"Hope for luck","tags":["body","luck"]}
-{"idiom":"See eye to eye","language":"en","meaning":"Agree fully","tags":["body","agreement"]}
-{"idiom":"Stand on your own two feet","language":"en","meaning":"Be independent","tags":["body","independence"]}
-{"idiom":"Stick your neck out","language":"en","meaning":"Take a risk","tags":["body","risk"]}
-{"idiom":"Take it on the chin","language":"en","meaning":"Accept adversity","tags":["body","resilience"]}
-{"idiom":"Thumbs up","language":"en","meaning":"Approval","tags":["body","approval"]}
+{"id":"en_1","idiom":"keep a cool head","language":"en","meaning":"to remain calm under pressure","body_parts":["head"],"affects":["calmness","composure"]}
+{"id":"en_2","idiom":"put your foot down","language":"en","meaning":"to be firm or assert authority","body_parts":["foot"],"affects":["authority","determination"]}
+{"id":"en_3","idiom":"lend a hand","language":"en","meaning":"to help someone","body_parts":["hand"],"affects":["helpfulness","cooperation"]}
+{"id":"en_4","idiom":"keep an eye on","language":"en","meaning":"to watch closely","body_parts":["eye"],"affects":["vigilance","attention"]}
+{"id":"en_5","idiom":"turn a blind eye","language":"en","meaning":"to ignore something intentionally","body_parts":["eye"],"affects":["avoidance","denial"]}
+{"id":"en_6","idiom":"get cold feet","language":"en","meaning":"to lose courage or confidence","body_parts":["foot"],"affects":["fear","hesitation"]}
+{"id":"en_7","idiom":"bite your tongue","language":"en","meaning":"to stop yourself from speaking","body_parts":["tongue"],"affects":["restraint","self-control"]}
+{"id":"en_8","idiom":"have butterflies in your stomach","language":"en","meaning":"to feel nervous or anxious","body_parts":["stomach"],"affects":["anxiety","anticipation"]}
+{"id":"en_9","idiom":"stick your neck out","language":"en","meaning":"to take a risk","body_parts":["neck"],"affects":["risk","courage"]}
+{"id":"en_10","idiom":"keep your chin up","language":"en","meaning":"to stay positive in difficult times","body_parts":["chin"],"affects":["optimism","resilience"]}
+{"id":"en_11","idiom":"lose your head","language":"en","meaning":"to panic or lose control","body_parts":["head"],"affects":["panic","confusion"]}
+{"id":"en_12","idiom":"speak your mind","language":"en","meaning":"to say what you really think","body_parts":["mouth"],"affects":["honesty","assertiveness"]}
+{"id":"en_13","idiom":"get something off your chest","language":"en","meaning":"to confess or express feelings","body_parts":["chest"],"affects":["relief","honesty"]}
+{"id":"en_14","idiom":"play it by ear","language":"en","meaning":"to improvise","body_parts":["ear"],"affects":["adaptability","spontaneity"]}
+{"id":"en_15","idiom":"shoulder the responsibility","language":"en","meaning":"to take on a duty or burden","body_parts":["shoulder"],"affects":["duty","responsibility"]}
+{"id":"en_16","idiom":"have a big mouth","language":"en","meaning":"to talk too much or reveal secrets","body_parts":["mouth"],"affects":["carelessness","talkativeness"]}
+{"id":"en_17","idiom":"break a leg","language":"en","meaning":"to wish someone good luck","body_parts":["leg"],"affects":["luck","encouragement"]}
+{"id":"en_18","idiom":"keep your nose clean","language":"en","meaning":"to stay out of trouble","body_parts":["nose"],"affects":["discipline","obedience"]}
+{"id":"en_19","idiom":"have your hands full","language":"en","meaning":"to be very busy","body_parts":["hand"],"affects":["workload","responsibility"]}
+{"id":"en_20","idiom":"bite off more than you can chew","language":"en","meaning":"to take on too much","body_parts":["mouth","teeth"],"affects":["overconfidence","strain"]}
+{"id":"en_21","idiom":"keep your eyes peeled","language":"en","meaning":"to stay alert","body_parts":["eye"],"affects":["alertness","vigilance"]}
+{"id":"en_22","idiom":"speak from the heart","language":"en","meaning":"to express sincere feelings","body_parts":["heart"],"affects":["sincerity","emotion"]}
+{"id":"en_23","idiom":"have a thick skin","language":"en","meaning":"to be insensitive to criticism","body_parts":["skin"],"affects":["resilience","stoicism"]}
+{"id":"en_24","idiom":"keep your mouth shut","language":"en","meaning":"to stay silent","body_parts":["mouth"],"affects":["secrecy","restraint"]}
+{"id":"en_25","idiom":"twist someone’s arm","language":"en","meaning":"to persuade someone by pressure","body_parts":["arm"],"affects":["persuasion","pressure"]}
+{"id":"en_26","idiom":"turn your back on","language":"en","meaning":"to reject or abandon someone","body_parts":["back"],"affects":["rejection","detachment"]}
+{"id":"en_27","idiom":"learn by heart","language":"en","meaning":"to memorize completely","body_parts":["heart"],"affects":["learning","memory"]}
+{"id":"en_28","idiom":"have a good head for","language":"en","meaning":"to be good at something","body_parts":["head"],"affects":["intelligence","skill"]}
+{"id":"en_29","idiom":"go over someone’s head","language":"en","meaning":"to bypass authority","body_parts":["head"],"affects":["defiance","strategy"]}
+{"id":"en_30","idiom":"stick to your guns","language":"en","meaning":"to stay firm in your position","body_parts":["hand","arm"],"affects":["determination","conviction"]}
+{"id":"en_31","idiom":"give someone a hand","language":"en","meaning":"to applaud or assist","body_parts":["hand"],"affects":["support","recognition"]}
+{"id":"en_32","idiom":"cry your eyes out","language":"en","meaning":"to cry intensely","body_parts":["eye"],"affects":["sadness","grief"]}
+{"id":"en_33","idiom":"lose face","language":"en","meaning":"to be humiliated or lose respect","body_parts":["face"],"affects":["shame","dishonor"]}
+{"id":"en_34","idiom":"wash your hands of","language":"en","meaning":"to stop being involved","body_parts":["hand"],"affects":["detachment","indifference"]}
+{"id":"en_35","idiom":"cost an arm and a leg","language":"en","meaning":"to be very expensive","body_parts":["arm","leg"],"affects":["value","sacrifice"]}
+{"id":"en_36","idiom":"turn heads","language":"en","meaning":"to attract attention","body_parts":["head"],"affects":["attraction","attention"]}
+{"id":"en_37","idiom":"have eyes in the back of your head","language":"en","meaning":"to be very watchful","body_parts":["eye","head"],"affects":["vigilance","awareness"]}
+{"id":"en_38","idiom":"put your heart into","language":"en","meaning":"to be deeply dedicated","body_parts":["heart"],"affects":["passion","commitment"]}
+{"id":"en_39","idiom":"lose your nerve","language":"en","meaning":"to become afraid or hesitant","body_parts":["nerve"],"affects":["fear","hesitation"]}
+{"id":"en_40","idiom":"have a chip on your shoulder","language":"en","meaning":"to be easily offended or resentful","body_parts":["shoulder"],"affects":["resentment","sensitivity"]}
+{"id":"en_41","idiom":"bite the hand that feeds you","language":"en","meaning":"to harm someone who helps you","body_parts":["hand","mouth"],"affects":["ingratitude","betrayal"]}
+{"id":"en_42","idiom":"sweat blood","language":"en","meaning":"to work extremely hard","body_parts":["blood","skin"],"affects":["effort","strain"]}
+{"id":"en_43","idiom":"get under someone’s skin","language":"en","meaning":"to annoy or affect deeply","body_parts":["skin"],"affects":["irritation","emotion"]}
+{"id":"en_44","idiom":"have your back","language":"en","meaning":"to support or protect someone","body_parts":["back"],"affects":["loyalty","support"]}
+{"id":"en_45","idiom":"get off on the wrong foot","language":"en","meaning":"to start something badly","body_parts":["foot"],"affects":["failure","awkwardness"]}
+{"id":"en_46","idiom":"keep your nose to the grindstone","language":"en","meaning":"to work hard continuously","body_parts":["nose"],"affects":["discipline","diligence"]}
+{"id":"en_47","idiom":"have itchy feet","language":"en","meaning":"to feel a strong urge to travel or move","body_parts":["foot"],"affects":["restlessness","curiosity"]}
+{"id":"en_48","idiom":"give someone the cold shoulder","language":"en","meaning":"to ignore or snub someone","body_parts":["shoulder"],"affects":["rejection","indifference"]}
+{"id":"en_49","idiom":"break someone’s heart","language":"en","meaning":"to cause great emotional pain","body_parts":["heart"],"affects":["grief","loss"]}
+{"id":"en_50","idiom":"have your hands tied","language":"en","meaning":"to be unable to act freely","body_parts":["hand"],"affects":["constraint","helplessness"]}

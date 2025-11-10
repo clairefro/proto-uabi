@@ -4,54 +4,39 @@
     <meta charset="UTF-8" />
     <title>Idioms Atlas</title>
     <link rel="stylesheet" href="styles.css" />
-    <style>
-      body {
-        font-family: sans-serif;
-        padding: 20px;
-      }
-      #idioms-container {
-        max-height: 600px;
-        overflow: auto;
-        border: 1px solid #ccc;
-        padding: 10px;
-      }
-      .idiom {
-        padding: 5px;
-        border-bottom: 1px solid #eee;
-        position: relative;
-      }
-      .edit-btn {
-        margin-top: 8px;
-        padding: 4px 12px;
-        background-color: #0969da;
-        color: white;
-        border: none;
-        border-radius: 4px;
-        cursor: pointer;
-        font-size: 12px;
-      }
-      .edit-btn:hover {
-        background-color: #0860ca;
-      }
-      select {
-        margin-bottom: 10px;
-      }
-    </style>
   </head>
   <body>
     <h1>Idioms Atlas</h1>
 
-    <label for="language-select">Choose language:</label>
-    <select id="language-select">
-      <option value="en">English</option>
-      <option value="zh">Chinese</option>
-      <option value="ja">Japanese</option>
-    </select>
-    <button id="load-all">Load All Languages</button>
+    <div>
+      <label for="language-select">Language:</label>
+      <select id="language-select">
+        <option value="en">English</option>
+        <option value="zh">Chinese</option>
+        <option value="ja">Japanese</option>
+      </select>
+      <button id="load-all">Load All Languages</button>
+    </div>
+
+    <div>
+      <label for="bodypart-select">Filter by body part:</label><br />
+      <select id="bodypart-select" multiple>
+        <option value="head">Head</option>
+        <option value="face">Face</option>
+        <option value="eye">Eye</option>
+        <option value="ear">Ear</option>
+        <option value="mouth">Mouth</option>
+        <option value="hand">Hand</option>
+        <option value="heart">Heart</option>
+        <option value="foot">Foot</option>
+        <option value="neck">Neck</option>
+      </select>
+      <button id="clear-filters">Clear Filters</button>
+    </div>
 
     <input type="text" id="search" placeholder="Search idioms..." />
 
-    <div id="item-count" style="margin: 10px 0; font-weight: bold;">Items: 0</div>
+    <div id="item-count" class="item-count">Items: 0</div>
 
     <div id="idioms-container"></div>
 

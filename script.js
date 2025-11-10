@@ -2,6 +2,8 @@ const languages = ["en", "zh", "ja"];
 const container = document.getElementById("idioms-container");
 const searchInput = document.getElementById("search");
 const itemCountEl = document.getElementById("item-count");
+const bodyFilter = document.getElementById("body-filter");
+const clearFiltersBtn = document.getElementById("clear-filters");
 
 // Virtualized render
 const visibleIdioms = [];
@@ -56,12 +58,21 @@ function renderBatch(batch) {
                         : ""
                     }
                      Meaning: ${idiom.meaning}<br>
-                     Tags: ${idiom.tags.join(", ")}`;
+                     ${
+                       idiom.body_parts
+                         ? "Body parts: " + idiom.body_parts.join(", ") + "<br>"
+                         : ""
+                     }
+                     ${
+                       idiom.affects
+                         ? "Affects: " + idiom.affects.join(", ") + "<br>"
+                         : ""
+                     }`;
 
     // Add edit button
     const editBtn = document.createElement("button");
     editBtn.className = "edit-btn";
-    editBtn.textContent = "Edit";
+    editBtn.textContent = "Propose Edit";
     editBtn.onclick = () => openGitHubIssue(idiom);
     div.appendChild(editBtn);
 
@@ -90,7 +101,14 @@ function openGitHubIssue(idiom) {
       }` +
       `${idiom.literal ? `**Literal Translation:** ${idiom.literal}\n` : ""}` +
       `**Meaning:** ${idiom.meaning}\n` +
-      `**Tags:** ${idiom.tags.join(", ")}\n\n` +
+      `${
+        idiom.body_parts
+          ? `**Body Parts:** ${idiom.body_parts.join(", ")}\n`
+          : ""
+      }` +
+      `${
+        idiom.affects ? `**Affects:** ${idiom.affects.join(", ")}\n` : ""
+      }\n\n` +
       `## Proposed Changes\n\n` +
       `<!-- Describe what should be changed and why -->\n\n` +
       `## Additional Context\n\n` +
@@ -110,12 +128,23 @@ function addIdiom(idiom) {
   }
 }
 
-// Filter idioms by search
-function filterIdioms(query) {
-  container.innerHTML = "";
-  const filtered = allIdioms.filter((i) =>
-    i.idiom.toLowerCase().includes(query.toLowerCase())
+// Combined filtering (search + body parts)
+function applyFilters() {
+  const query = searchInput.value.toLowerCase();
+  const selectedBodyParts = Array.from(bodyFilter.selectedOptions).map(
+    (opt) => opt.value
   );
+
+  const filtered = allIdioms.filter((idiom) => {
+    const matchesSearch = !query || idiom.idiom.toLowerCase().includes(query);
+    const matchesBody =
+      selectedBodyParts.length === 0 ||
+      (idiom.body_parts &&
+        idiom.body_parts.some((part) => selectedBodyParts.includes(part)));
+    return matchesSearch && matchesBody;
+  });
+
+  container.innerHTML = "";
   renderBatch(filtered);
   updateItemCount(filtered.length);
 }
@@ -130,7 +159,6 @@ async function loadLanguage(lang) {
   visibleIdioms.length = 0;
   updateItemCount(0);
   await streamNDJSON(`idioms/${lang}.ndjson`, addIdiom);
-  // Render any remaining idioms
   if (visibleIdioms.length > 0) {
     renderBatch(visibleIdioms.splice(0, visibleIdioms.length));
   }
@@ -153,7 +181,6 @@ async function loadAllLanguages() {
   await Promise.all(
     languages.map((lang) => streamNDJSON(`idioms/${lang}.ndjson`, addIdiom))
   );
-  // Render any remaining idioms
   if (visibleIdioms.length > 0) {
     renderBatch(visibleIdioms.splice(0, visibleIdioms.length));
   }
@@ -165,7 +192,13 @@ document
   .getElementById("language-select")
   .addEventListener("change", (e) => loadLanguage(e.target.value));
 document.getElementById("load-all").addEventListener("click", loadAllLanguages);
-searchInput.addEventListener("input", (e) => filterIdioms(e.target.value));
+searchInput.addEventListener("input", applyFilters);
+bodyFilter.addEventListener("change", applyFilters);
+clearFiltersBtn.addEventListener("click", () => {
+  searchInput.value = "";
+  Array.from(bodyFilter.options).forEach((opt) => (opt.selected = false));
+  applyFilters();
+});
 
 // Initial load
 loadLanguage("en");
