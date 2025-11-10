@@ -1,9 +1,12 @@
-const languages = ["en", "zh", "ja"];
 const container = document.getElementById("idioms-container");
 const searchInput = document.getElementById("search");
 const itemCountEl = document.getElementById("item-count");
 const bodyFilter = document.getElementById("bodypart-select");
 const clearFiltersBtn = document.getElementById("clear-filters");
+const languageSelect = document.getElementById("language-select");
+
+// Get languages from dropdown options
+const languages = Array.from(languageSelect.options).map((opt) => opt.value);
 
 // Virtualized render
 const visibleIdioms = [];
@@ -202,9 +205,7 @@ async function loadAllLanguages() {
 }
 
 // Event listeners
-document
-  .getElementById("language-select")
-  .addEventListener("change", (e) => loadLanguage(e.target.value));
+languageSelect.addEventListener("change", (e) => loadLanguage(e.target.value));
 document.getElementById("load-all").addEventListener("click", loadAllLanguages);
 searchInput.addEventListener("input", applyFilters);
 bodyFilter.addEventListener("change", applyFilters);
