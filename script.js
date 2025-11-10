@@ -2,7 +2,7 @@ const languages = ["en", "zh", "ja"];
 const container = document.getElementById("idioms-container");
 const searchInput = document.getElementById("search");
 const itemCountEl = document.getElementById("item-count");
-const bodyFilter = document.getElementById("body-filter");
+const bodyFilter = document.getElementById("bodypart-select");
 const clearFiltersBtn = document.getElementById("clear-filters");
 
 // Virtualized render
