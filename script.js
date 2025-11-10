@@ -112,7 +112,11 @@ function renderBatch(batch) {
     const div = document.createElement("div");
     div.className = "idiom";
     div.innerHTML = `<strong>${idiom.idiom}</strong> (${idiom.language})<br>
-                    ${idiom.romanization ? idiom.romanization + "<br>" : ""}
+                    ${
+                      idiom.romanization
+                        ? `<span class="romanization">${idiom.romanization}</span><br>`
+                        : ""
+                    }
                     ${
                       idiom.literal
                         ? "Translation: " + idiom.literal + "<br>"
