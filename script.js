@@ -6,15 +6,34 @@ const clearFiltersBtn = document.getElementById("clear-filters");
 const languageSelect = document.getElementById("language-select");
 const wordCloudEl = document.getElementById("word-cloud");
 
-// Get languages from dropdown options
 const languages = Array.from(languageSelect.options).map((opt) => opt.value);
 
-// Virtualized render
 const visibleIdioms = [];
 const batchSize = 100;
 
-// Simple in-memory search index
 let allIdioms = [];
+
+async function loadBodyPartOptions() {
+  try {
+    const response = await fetch("idioms/index.json");
+    const index = await response.json();
+
+    const bodyParts = Object.keys(index).sort();
+
+    bodyFilter.innerHTML = "";
+
+    bodyParts.forEach((part) => {
+      const option = document.createElement("option");
+      option.value = part;
+      option.textContent = part.charAt(0).toUpperCase() + part.slice(1);
+      bodyFilter.appendChild(option);
+    });
+
+    console.log(`Loaded ${bodyParts.length} body part filter options`);
+  } catch (error) {
+    console.error("Error loading body part options:", error);
+  }
+}
 
 // Update item count display
 function updateItemCount(count) {
@@ -44,12 +63,10 @@ function updateWordCloud(idioms) {
     return;
   }
 
-  // Calculate font sizes (min 12px, max 32px)
   const maxCount = sortedAffects[0][1];
   const minCount = sortedAffects[sortedAffects.length - 1][1];
   const fontSizeRange = 20; // 32 - 12 = 20
 
-  // Generate word cloud HTML
   wordCloudEl.innerHTML = sortedAffects
     .map(([affect, count]) => {
       const fontSize =
@@ -280,8 +297,14 @@ clearFiltersBtn.addEventListener("click", () => {
   applyFilters();
 });
 
+// Initialize on page load
+async function init() {
+  await loadBodyPartOptions();
+  await loadLanguage("en");
+}
+
 if (document.readyState === "loading") {
-  document.addEventListener("DOMContentLoaded", () => loadLanguage("en"));
+  document.addEventListener("DOMContentLoaded", init);
 } else {
-  loadLanguage("en");
+  init();
 }
