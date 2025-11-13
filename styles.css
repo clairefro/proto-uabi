@@ -105,3 +105,8 @@ input {
   background-color: #e3f2fd;
   color: #1565c0;
 }
+
+.top-section {
+  display: flex;
+  gap: 1rem;
+}

@@ -7,49 +7,53 @@
   </head>
   <body>
     <h1>Universal Atlas of Bodily Idioms</h1>
-
     <div>
-      <label for="language-select">Language:</label>
-      <select id="language-select">
-        <option value="en">English</option>
-        <option value="zh">Chinese</option>
-        <option value="ja">Japanese</option>
-        <option value="tr">Turkish</option>
-        <option value="es">Spanish</option>
-        <option value="ar">Arabic</option>
-        <option value="kn">Kannada</option>
-        <option value="sw">Swahili</option>
-        <option value="el">Greek</option>
-        <option value="ru">Russian</option>
-        <option value="sa">Sanskrit</option>
-        <option value="th">Thai</option>
-      </select>
-      <button id="load-all">Load All Languages</button>
-    </div>
+      <div class="top-section">
+        <div>
+          <label for="language-select">Language:</label>
+          <select id="language-select">
+            <option value="en">English</option>
+            <option value="zh">Chinese</option>
+            <option value="ja">Japanese</option>
+            <option value="tr">Turkish</option>
+            <option value="es">Spanish</option>
+            <option value="ar">Arabic</option>
+            <option value="kn">Kannada</option>
+            <option value="sw">Swahili</option>
+            <option value="el">Greek</option>
+            <option value="ru">Russian</option>
+            <option value="sa">Sanskrit</option>
+            <option value="th">Thai</option>
+          </select>
+          <button id="load-all">Load All Languages</button>
+        </div>
 
-    <div>
-      <label for="bodypart-select">Filter by body part:</label><br />
-      <select id="bodypart-select" multiple>
-        <option value="head">Head</option>
-        <option value="face">Face</option>
-        <option value="eye">Eye</option>
-        <option value="ear">Ear</option>
-        <option value="mouth">Mouth</option>
-        <option value="hand">Hand</option>
-        <option value="heart">Heart</option>
-        <option value="foot">Foot</option>
-        <option value="neck">Neck</option>
-      </select>
-      <button id="clear-filters">Clear Filters</button>
-    </div>
+        <div>
+          <label for="bodypart-select">Filter by body part:</label><br />
+          <select id="bodypart-select" multiple>
+            <option value="head">Head</option>
+            <option value="face">Face</option>
+            <option value="eye">Eye</option>
+            <option value="ear">Ear</option>
+            <option value="mouth">Mouth</option>
+            <option value="hand">Hand</option>
+            <option value="heart">Heart</option>
+            <option value="foot">Foot</option>
+            <option value="neck">Neck</option>
+          </select>
+          <button id="clear-filters">Clear Filters</button>
+        </div>
 
-    <input type="text" id="search" placeholder="Search idioms..." />
+        <input type="text" id="search" placeholder="Search idioms..." />
 
-    <div id="item-count" class="item-count">Items: 0</div>
-
-    <div class="word-cloud-container">
-      <h3>Affects Word Cloud</h3>
-      <div id="word-cloud"></div>
+        <div id="item-count" class="item-count">Items: 0</div>
+      </div>
+      <div>
+        <div class="word-cloud-container">
+          <h3>Affects Word Cloud</h3>
+          <div id="word-cloud"></div>
+        </div>
+      </div>
     </div>
 
     <div id="idioms-container"></div>
