@@ -51,12 +51,13 @@ input {
 }
 
 .word-cloud-container {
-  margin: 20px 0;
   padding: 15px;
   border: 1px solid #ddd;
   border-radius: 8px;
   background-color: #f9f9f9;
   max-width: 900px;
+  max-height: 300px;
+  overflow-y: scroll;
 }
 
 .word-cloud-container h3 {
@@ -110,5 +111,12 @@ input {
 .top-section {
   display: flex;
   gap: 4rem;
-  /* justify-content: space-between; */
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    gap: 1rem;
+  }
 }
